@@ -38,3 +38,8 @@ p {
   margin: 75px;
 
 }
+
+.glyphicon {
+  font-size: 40px;
+  color: rgb(87,87,87);
+}
