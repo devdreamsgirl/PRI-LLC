@@ -44,3 +44,7 @@ li {
 .navbar {
   padding-bottom: 15px;
 }
+
+.dropItem {
+  margin-bottom:0px;
+}
