@@ -1,0 +1,14 @@
+h2 {
+  color: gray;
+  padding-top:175px;
+  font-size: 38px;
+}
+hr {
+  width: 8%;
+  background-color: rgb(215, 222, 232);
+  color:rgb(215, 222, 232);
+  height:2px;
+}
+#phaseDiagram {
+  
+}
