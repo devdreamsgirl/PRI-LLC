@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width">
-    <title>Real Estate Portfolio | PRI</title>
+    <title>Team | PRI</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400,700" rel="stylesheet">
     <script
@@ -10,7 +10,10 @@
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
             crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../investing/process.css">
+    <link rel="stylesheet" href="../investing/faq.css">
+    <link rel="stylesheet" href="../team.css">
   </head>
 
   <body>
@@ -26,20 +29,20 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button> <!--this button class creates "hamburger" for items hidden upon responsive screen size collaspe--> <!--Place before brand anchor inside navbar-header-->
-          <a class="navbar-brand" href="index.html"> <img id="logo" src="photos/logo/precise.jpg" alt="PRI Logo"> Precise Realtors' Investing</a>
+          <a class="navbar-brand" href="../index.html"> <img id="logo" src="../photos/logo/precise.jpg" alt="PRI Logo"> Precise Realtors' Investing</a>
           <!-- There can also be an image tag between the anchor elements -->
         </div>
         <div class="collapse navbar-collapse" id="bs-nav-demo"> <!--selects content to be hidden with responsive screen size-->
           <ul class="nav navbar-nav navbar-right"><!--right nav--> <!--seperate unordered lists inside nav tag, but outside navbar header to seperate content in navbar on left and right sides-->
-            <li><a href="index.html">Home</a></li> <!--use list items for each item in the nav bar-->
+            <li><a href="../index.html">Home</a></li> <!--use list items for each item in the nav bar-->
             <li class="dropdown"><!--investing with "investment process and FAQ"-->
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Investing<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                  <li><a href="investing/process.html">Investment Process</a></li>
-                  <li><a href="investing/faq.html">FAQ</a></li>
+                  <li class="dropItem"><a href="../investing/process.html">Investment Process</a></li>
+                  <li class="dropItem"><a href="../investing/faq.html">FAQ</a></li>
                </ul>
              </li>
-            <li><a href="team.html">Team</a></li>
+            <li><a href="#">Team</a></li>
             <li class="dropdown"><!--Portfolio w/ list of apartments-->
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -53,6 +56,27 @@
 
       </div> <!--added a div container for navbar content to pull navbar-right off of the edge ot site page-->
     </nav>
+
+    <div class="bodyContent">
+
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="http://via.placeholder.com/300x300" alt="apartment picture">
+          </div>
+          <div class="col-lg-4">
+            <img src="http://via.placeholder.com/300x300" alt="apartment picture">
+          </div>
+          <div class="col-lg-4">
+            <img src="http://via.placeholder.com/300x300" alt="apartment picture">
+          </div>
+        </div>
+      </div>
+
+
+
+
+
 
   </body>
 </html>

@@ -1,11 +1,17 @@
 .jumbotron {
   margin-top: 100px;
   padding:65px;
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(http://via.placeholder.com/1500x177);
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(photos/multiFam/deltaPointAptFull.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: left 20% top 54%;
 }
 
+#logo {
+  width: 210px;
+  max-height: 52px;
+  margin-top:-10px;
+  margin-bottom:5px;
+}
 .navbar {
   padding-top: 10px;
   padding-bottom: 35px;
