@@ -22,8 +22,14 @@ h4 {
 .opportunitySum {
   margin-top: 50px;
 }
+#factsTitle{
+  padding-top:30%;
+  padding-left:20px;
+  padding-right:20px;
 
-#factsTitle, #facts {
+}
+
+#facts {
   padding-top: 10%;
   padding-bottom: 10%;
 }
