@@ -2,3 +2,16 @@ h2  {
   padding-top: 150px;
   text-align: center;
 }
+h3 {
+  color: gray;
+  font-family:"Playfair Display", serif;
+}
+
+h3 + hr{
+  margin-bottom:15px;
+
+}
+.thumbnail > img {
+  height:250px;
+  width:100%;
+}

@@ -1,0 +1,56 @@
+.jumbotron {
+  /* Full unit pic */
+  background: rgba(0,0,0,0.2);
+  margin-top:20px;
+  margin-bottom:45px;
+}
+
+#unitName {
+  padding-top: 5px;
+  color:white;
+  font-family:"Playfair Display", serif;
+}
+
+h4 {
+  font-family:"Playfair Display", serif;
+  font-size: 3.0rem;
+  text-align: left;
+  padding-left: 25%;
+  color: gray;
+}
+
+.opportunitySum {
+  margin-top: 50px;
+}
+
+#factsTitle, #facts {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+div.investSum li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(87,87,87);
+  font-size: 20px;
+  margin: 25px;
+  margin-left:55px;
+
+}
+.investSum {
+  text-align: justify;
+
+}
+
+div.investSum ul {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+#firstPara {
+  margin-top:50px;
+}
+
+.btn-lg {
+    padding: 15px 30px;
+}
