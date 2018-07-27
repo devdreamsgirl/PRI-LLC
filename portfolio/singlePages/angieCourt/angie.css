@@ -1,6 +1,6 @@
 .jumbotron {
   /* Full unit pic */
-  background: rgba(0,0,0,0.8) url(#);
+  background: rgba(0,0,0,0.8) url(../../../photos/singleFam/angieCourtFull.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -15,7 +15,6 @@
   text-shadow: 1px 1px 2px gray;
 }
 
-
 h4 {
   font-family:"Playfair Display", serif;
   font-size: 3.0rem;
@@ -29,7 +28,7 @@ h4 {
   margin-top: 50px;
 }
 #factsTitle{
-  padding-top:22%;
+  padding-top:35%;
   padding-left:20px;
   padding-right:20px;
 

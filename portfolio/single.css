@@ -7,11 +7,11 @@ h3 {
   font-family:"Playfair Display", serif;
 }
 
-h3 + hr{
+a + hr{
   margin-bottom:15px;
 
 }
-.thumbnail > img {
+.thumbnail a > img {
   height:250px;
   width:100%;
 }

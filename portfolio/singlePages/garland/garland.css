@@ -1,6 +1,6 @@
 .jumbotron {
   /* Full unit pic */
-  background: rgba(0,0,0,0.8) url(#);
+  background: rgba(0,0,0,0.8) url(../../../photos/singleFam/garlandFull.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -36,8 +36,8 @@ h4 {
 }
 
 .facts {
-  padding-top: auto;
-  padding-bottom: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
   max-height: 100%;
 }
 
